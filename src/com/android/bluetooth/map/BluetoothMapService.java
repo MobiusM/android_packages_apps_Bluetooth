@@ -597,7 +597,6 @@ public class BluetoothMapService extends ProfileService {
         } catch (MalformedMimeTypeException e) {
             Log.e(TAG, "Wrong mime type!!!", e);
         }
-
         try {
             registerReceiver(mMapReceiver, filter);
             // We need WRITE_SMS permission to handle messages in
